@@ -1,0 +1,199 @@
+.profile{
+    background-color: #eee;
+    .profile-tabs-name{
+        background-color: #fff;
+
+        ul{
+            li{ 
+                a{
+                    min-height: 150px;
+                    color: #000;
+                    font-family: jose;
+                    height: 100%;
+                    .name-icon{
+                        font-size: 30px;
+                        color: var(--pop-color);
+                    }
+                }
+                a.nav-link.active {background-color: #ddd;}
+            }
+        }
+    }
+
+    .profile-tabs-content{
+        #profile-details{
+            ul{
+                li{
+                    .profile-name{
+                        h6{
+                            color: var(--pop-color);
+                            font-family: jose;
+                        }
+                    }
+                    .need-hellp{
+                        .hellp-icon{
+                            font-size: 20px;
+                            color: #ddd;
+                        }
+                        .hellp-content{
+                            font-size: 14px;
+                            font-weight: 100;
+                            color: #aaa;
+                        }
+                        .hellp-btn{
+                            a{
+                                background-color: var(--pop-color);
+                                font-family: jose;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .personal-information{
+            background-color: #fff;
+            .personal-title{
+                h5{
+                    color: var(--pop-color);
+                    font-family: jose;
+                }
+            }
+            .personal-content{
+                label{
+                    font-size: 13px;
+                    font-weight: 100;
+                }
+                .form-control:disabled{
+                    background-color: #ffffff;
+                    border: 0;
+                    padding: 0;
+                }
+                input{
+                    font-family: jose;
+                    color: #343a40;
+                }
+                .action{
+                    button{
+                        width: 100%;
+                        background-color: var(--pop-color);
+                        font-family: jose;
+                    }
+                }
+            }
+        }
+        .address{
+            background-color: #fff;
+            overflow: hidden;
+            .address-title{
+                h5{
+                    color: var(--pop-color);
+                    font-family: jose;
+                }
+            }
+            .action{
+                width: 30%;
+                button{
+                    width: 100%;
+                    background-color: var(--pop-color);
+                    font-family: jose;
+                }
+            }
+            .all-addresses{
+                .person-address{
+                    border: 1px solid #ddd;
+                    label{
+                        top: 35%;
+                        left: 12%;
+                    }
+                    .address-content{
+                        h6{
+                            color: #000;
+                            font-family: jose;
+                        }
+                        p{
+                            font-weight: 100;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #payment-methods{
+        ul{
+            li{
+                .all-cards{
+                    h6{
+                        color: var(--pop-color);
+                        font-size: 14px;
+                        font-family: jose;
+                    }
+                    p{
+                        font-size: 15px;
+                        font-weight: 100;
+                    }
+                }
+               
+                .need-hellp{
+                    .hellp-icon{
+                        font-size: 20px;
+                        color: #ddd;
+                    }
+                    .hellp-content{
+                        font-size: 14px;
+                        font-weight: 100;
+                        color: #aaa;
+                    }
+                    .hellp-btn{
+                        a{
+                            background-color: var(--pop-color);
+                            font-family: jose;
+                        }
+                    }
+                }
+            }
+        }
+        .payment-methods{
+            background-color: #fff;
+            ul{
+                .nav-link.active{border-color: var(--pop-color);}
+                .nav-link{
+                    border: 0;
+                    border-bottom: 2px solid transparent;
+                }
+                .nav-item .nav-link{
+                    font-size: 15px;
+                    font-family: jose;
+                    color: #000;
+                }
+            }
+        }
+        #credit-card{
+            .form-group{
+                position: relative;
+                label{
+                    font-size: 13px;
+                    font-weight: 100;
+                }
+                input{
+                    font-size: 15px;
+                    font-weight: 100;
+                    border: 0;
+                    border-bottom: 1px solid #ddd;
+                    border-radius: 0;
+                    letter-spacing: 2px;
+                    &:focus{
+                        box-shadow: none;
+                        border-color: var(--pop-color);
+                    }
+                }
+                .ico{
+                    position: absolute;
+                    right: 1%;
+                    bottom: 15%;
+                    color: var(--pop-color);
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Profile</title>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="webfont/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/he-fo.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="sass/css/profile.css">
+</head>
+<body>
+
+<!-- start page baner section  -->
+<section class="page-baner">
+    <div class="container">
+        <div class="page-baner-content text-center">
+            <h5>Profile</h5>
+            <div class="baner-link">
+                <span ><a href="">Home / </a></span>
+                <span ><a href="">Profile</a></span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end page baner section  -->
+
+<section class="profile">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <div class="profile-tabs-name">
+                    <ul class="nav flex-column text-center">
+                        <li class="nav-item pb-2">
+                            
+                          <a class="nav-link active pt-4" data-toggle="tab" href="#profile-details">
+                            <div class="name-icon"><i class="fas fa-id-card-alt"></i></div>
+                              Profile Details
+                        </a>
+                        </li>
+                        <li class="nav-item py-2">
+                            
+                          <a class="nav-link pt-4" data-toggle="tab" href="#payment-methods">
+                            <div class="name-icon"><i class="fas fa-credit-card"></i></div>
+                              Payment Methods
+                        </a>
+                        </li>
+                        <li class="nav-item pt-2">
+                            
+                          <a class="nav-link pt-4" data-toggle="tab" href="#order-traking">
+                            <div class="name-icon"><i class="fas fa-file-invoice"></i></div>
+                              Order Traking
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-10">
+                <div class="profile-tabs-content">
+                    <div class="tab-content">
+
+                        <!-- profile details tab -->
+                        <div class="tab-pane container active" id="profile-details">
+                            <div class="row">
+                                <div class="col-3">
+                                    <ul class="list-group">
+                                        <li class="list-group-item py-4 text-center">
+                                            <div class="profile-img">
+                                                <img src="./img/about-page/person1.jpg" alt="" class="mx-auto d-block img-fluid rounded-circle">
+                                            </div>
+                                            <div class="profile-name pt-2">
+                                                <h6 class="m-0">Abdulrahman Masoud</h6>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item text-center py-4 mt-2">
+                                            <div class="need-hellp">
+                                                <div class="hellp-icon">
+                                                    <i class="far fa-question-circle"></i>
+                                                </div>
+                                                <div class="hellp-content">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="hellp-btn">
+                                                    <a href="./faq.html" class="btn btn-info">Need Hellp?</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-9 p-0">
+                                    <div class="personal-information p-2">
+                                        <div class="personal-title py-2">
+                                            <h5 class="m-0">Personal Information</h5>
+                                        </div>
+                                        <div class="personal-content position-relative">
+                                            <span class="  position-absolute edit" >
+                                                <i class="far fa-edit position-absolute edit"></i>
+                                            </span>
+                                                <div class="row">
+                                                    
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group">
+                                                            <label for="usr">Name:</label>
+                                                            <input type="text" class="form-control" value="Abdulrahman Masoud" disabled >
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group">
+                                                            <label for="usr">Email:</label>
+                                                            <input type="email" class="form-control" value="abdulrahman@gmail.com" disabled >
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group">
+                                                            <label for="usr">Phone:</label>
+                                                            <input type="text" class="form-control" value="+201012895020" disabled >
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-6 col-12">
+                                                        <div class="form-group">
+                                                            <label for="usr">Password:</label>
+                                                            <input type="password" class="form-control" value="1020304050" disabled >
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="col-12">
+                                                        <div class="action pt-3">
+                                                            <div class="row">
+                                                             <div class="col-6">
+                                                                <button class="btn btn-info d-none save" >save</button>
+                                                             </div>
+                                                             
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <!-- addresses -->
+                                    <div class="address position-relative p-2">
+                                        <!-- addresses modal -->
+                                        <div class="address-modal">
+                                            <div class="modal" id="add-new-address">
+                                                <div class="modal-dialog">
+                                                  <div class="modal-content">
+                                                  
+                                                    <!-- Header -->
+                                                    <div class="modal-header">
+                                                      <h4 class="modal-title">Add New Address</h4>
+                                                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                    </div>
+                                                    
+                                                    <!-- body -->
+                                                    <div class="modal-body">
+                                                      Modal body..
+                                                    </div>
+                                                    
+                                                    
+                                                  </div>
+                                                </div>
+                                              </div>                                            
+                                        </div>
+
+                                        <div class="address-title py-2">
+                                            <h5 class="m-0">Address</h5>
+                                        </div>
+                                        <div class="action position-absolute">
+                                            <span class=" new-address" data-toggle="modal" data-target="#add-new-address">
+                                                <i class="fas fa-plus-circle"></i>
+                                            </sapn>
+                                        </div>
+                                        <!--All addresses  -->
+                                        <div class="all-addresses">
+                                            <div class="row">
+                                                <div class="col-md-6 col-12">
+                                                    <div class="custom-control custom-radio person-address my-2 py-2">
+                                                        <input type="radio" id="address1" name="address" class="custom-control-input">
+                                                        <label class="custom-control-label position-absolute" for="address1"></label>
+                                                        <div class="address-content ml-3">
+                                                            <h6 class="m-0 address-name">Home</h6>
+                                                            <p class="m-0 cuntry-and-city">Egypt, Menofia</p>
+                                                            <p class="m-0 full-address">Lorem ipsum dolor sit amet.</p>
+                                                            <p class="m-0 post-code">1183</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+                                                <div class="col-md-6 col-12">
+                                                    <div class="custom-control custom-radio person-address my-2 py-2">
+                                                        <input type="radio" id="address2" name="address" class="custom-control-input">
+                                                        <label class="custom-control-label position-absolute" for="address2"></label>
+                                                        <div class="address-content ml-3">
+                                                            <h6 class="m-0 address-name">Company</h6>
+                                                            <p class="m-0 cuntry-and-city">Egypt, Menofia</p>
+                                                            <p class="m-0 full-address">Lorem ipsum dolor sit amet.</p>
+                                                            <p class="m-0 post-code">1183</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+                                                <div class="col-md-6 col-12">
+                                                    <div class="custom-control custom-radio person-address my-2 py-2">
+                                                        <input type="radio" id="address3" name="address" class="custom-control-input">
+                                                        <label class="custom-control-label position-absolute" for="address3"></label>
+                                                        <div class="address-content ml-3">
+                                                            <h6 class="m-0 address-name">Father</h6>
+                                                            <p class="m-0 cuntry-and-city">Egypt, Menofia</p>
+                                                            <p class="m-0 full-address">Lorem ipsum dolor sit amet.</p>
+                                                            <p class="m-0 post-code">1183</p>
+                                                        </div>
+                                                      </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                        <!-- Add new address -->
+                                        <!-- <div class="action pt-3 float-right">
+                                            <button class="btn btn-info new-address" data-toggle="modal" data-target="#add-new-address">Add New Address</button>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Payment Methodes tab -->
+                        <div class="tab-pane container fade" id="payment-methods">
+                            <div class="row">
+                                <div class="col-3 p-0">
+                                    <ul class="list-group">
+                                        <li class="list-group-item py-4 ">
+                                            <div class="all-cards">
+                                                <h6 class="">All Credit Cards</h6>
+                                                <div class="credit credit1 mt-2 border rounded">
+                                                    <p class="m-0 px-2">xxxx xxxx xxxx 1234</p>
+                                                </div>
+                                                <div class="credit credit2 mt-2 border rounded">
+                                                    <p class="m-0 px-2">xxxx xxxx xxxx 5678</p>
+                                                </div>
+                                                <div class="credit credit3 mt-2 border rounded">
+                                                    <p class="m-0 px-2">xxxx xxxx xxxx 9101</p>
+                                                </div>
+                                            </div>
+                                            
+                                        </li> 
+                                        <li class="list-group-item text-center py-4 mt-2">
+                                            <div class="need-hellp">
+                                                <div class="hellp-icon">
+                                                    <i class="far fa-question-circle"></i>
+                                                </div>
+                                                <div class="hellp-content">
+                                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                </div>
+                                                <div class="hellp-btn">
+                                                    <a href="./faq.html" class="btn btn-info">Need Hellp?</a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-9">
+                                    <div class="payment-methods">
+                                        <!-- Nav tabs -->
+                                        <ul class="nav nav-tabs px-2">
+                                            
+                                            <li class="nav-item">
+                                            <a class="nav-link active" data-toggle="tab" href="#credit-card">Credit Card <i class="fas fa-credit-card"></i></a>
+                                            </li>
+                                            <li class="nav-item">
+                                            <a class="nav-link" data-toggle="tab" href="#paypal">Paypal <i class="fab fa-cc-paypal"></i></a>
+                                            </li>
+                                          
+                                           
+                                        </ul>
+                                        
+                                        <!-- Tab panes -->
+                                        <div class="tab-content p-3">
+                                            <div class="tab-pane container active" id="credit-card">
+                                                <form action="">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="text">Card Number:</label>
+                                                                <input type="text" class="form-control" placeholder="xxxx xxxx xxxx 1233" id="card-number">
+                                                                <i class="fas fa-credit-card ico"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label for="text">Expire Date:</label>
+                                                                <input type="text" class="form-control" placeholder="00 / 0000" id="expire-date">
+                                                                <i class="far fa-calendar-alt ico"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <div class="form-group">
+                                                                <label for="text">Code CVV:</label>
+                                                                <input type="text" class="form-control" placeholder="Code Cvv" id="cvv">
+                                                                <i class="fas fa-unlock-alt ico"></i>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <label for="text">Name:</label>
+                                                                <input type="text" class="form-control" placeholder="Abdulrahman Masoud" id="card-name">
+                                                                <i class="far fa-user ico"></i>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-12">
+                                                            <div class="form-group">
+                                                                <button type="button" class="btn btn-primary w-100">Add</button>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="tab-pane container fade" id="paypal">paypal</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <!-- order Traking tab -->
+                        <div class="tab-pane container fade" id="order-traking">..aa.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jQuery3.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.0.4/popper.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="webfont/fontawesome/js/all.min.js"></script>
+</body>
+</html>

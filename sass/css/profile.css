@@ -1,0 +1,132 @@
+.profile {
+  background-color: #eee; }
+  .profile .profile-tabs-name {
+    background-color: #fff; }
+    .profile .profile-tabs-name ul li a {
+      min-height: 150px;
+      color: #000;
+      font-family: jose;
+      height: 100%; }
+      .profile .profile-tabs-name ul li a .name-icon {
+        font-size: 30px;
+        color: var(--pop-color); }
+    .profile .profile-tabs-name ul li a.nav-link.active {
+      background-color: #ddd; }
+  .profile .profile-tabs-content #profile-details ul li .profile-name h6 {
+    color: var(--pop-color);
+    font-family: jose; }
+  .profile .profile-tabs-content #profile-details ul li .need-hellp .hellp-icon {
+    font-size: 20px;
+    color: #ddd; }
+  .profile .profile-tabs-content #profile-details ul li .need-hellp .hellp-content {
+    font-size: 14px;
+    font-weight: 100;
+    color: #aaa; }
+  .profile .profile-tabs-content #profile-details ul li .need-hellp .hellp-btn a {
+    background-color: var(--pop-color);
+    font-family: jose; }
+  .profile .profile-tabs-content .personal-information {
+    background-color: #fff; }
+    .profile .profile-tabs-content .personal-information .personal-title h5 {
+      color: var(--pop-color);
+      font-family: jose; }
+    .profile .profile-tabs-content .personal-information .personal-content label {
+      font-size: 13px;
+      font-weight: 100; }
+    .profile .profile-tabs-content .personal-information .personal-content .form-control:disabled {
+      background-color: #ffffff;
+      border: 0;
+      padding: 0; }
+    .profile .profile-tabs-content .personal-information .personal-content input {
+      font-family: jose;
+      color: #343a40; }
+    .profile .profile-tabs-content .personal-information .personal-content .action button {
+      width: 100%;
+      background-color: var(--pop-color);
+      font-family: jose; }
+
+      .profile .profile-tabs-content .personal-information .personal-content .edit{
+        color:  var(--pop-color);
+        top: -20%;
+        right: 0;
+      cursor: pointer;
+        font-size: 13px;
+
+      }
+
+  .profile .profile-tabs-content .address {
+    background-color: #fff;
+    overflow: hidden; }
+    .profile .profile-tabs-content .address .address-title h5 {
+      color: var(--pop-color);
+      font-family: jose; }
+    .profile .profile-tabs-content .address .action {
+      color: var(--pop-color);
+      top: 3%;
+      right: 2%;
+      cursor: pointer;
+     }
+      /* .profile .profile-tabs-content .address .action button {
+        width: 100%;
+        background-color: var(--pop-color);
+        font-family: jose; } */
+    .profile .profile-tabs-content .address .all-addresses .person-address {
+      border: 1px solid #ddd; }
+      .profile .profile-tabs-content .address .all-addresses .person-address label {
+        top: 35%;
+        left: 12%; }
+      .profile .profile-tabs-content .address .all-addresses .person-address .address-content h6 {
+        color: #000;
+        font-family: jose; }
+      .profile .profile-tabs-content .address .all-addresses .person-address .address-content p {
+        font-weight: 100; }
+  .profile #payment-methods ul li .all-cards h6 {
+    color: var(--pop-color);
+    font-size: 14px;
+    font-family: jose; }
+  .profile #payment-methods ul li .all-cards p {
+    font-size: 15px;
+    font-weight: 100; }
+  .profile #payment-methods ul li .need-hellp .hellp-icon {
+    font-size: 20px;
+    color: #ddd; }
+  .profile #payment-methods ul li .need-hellp .hellp-content {
+    font-size: 14px;
+    font-weight: 100;
+    color: #aaa; }
+  .profile #payment-methods ul li .need-hellp .hellp-btn a {
+    background-color: var(--pop-color);
+    font-family: jose; }
+  .profile #payment-methods .payment-methods {
+    background-color: #fff; }
+    .profile #payment-methods .payment-methods ul .nav-link.active {
+      border-color: var(--pop-color); }
+    .profile #payment-methods .payment-methods ul .nav-link {
+      border: 0;
+      border-bottom: 2px solid transparent; }
+    .profile #payment-methods .payment-methods ul .nav-item .nav-link {
+      font-size: 15px;
+      font-family: jose;
+      color: #000; }
+  .profile #payment-methods #credit-card .form-group {
+    position: relative; }
+    .profile #payment-methods #credit-card .form-group label {
+      font-size: 13px;
+      font-weight: 100; }
+    .profile #payment-methods #credit-card .form-group input {
+      font-size: 15px;
+      font-weight: 100;
+      border: 0;
+      border-bottom: 1px solid #ddd;
+      border-radius: 0;
+      letter-spacing: 2px; }
+      .profile #payment-methods #credit-card .form-group input:focus {
+        box-shadow: none;
+        border-color: var(--pop-color); }
+    .profile #payment-methods #credit-card .form-group .ico {
+      position: absolute;
+      right: 1%;
+      bottom: 15%;
+      color: var(--pop-color); }
+
+/*# sourceMappingURL=profile.css.map */
